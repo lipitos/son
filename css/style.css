@@ -8,6 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(130, 130, 130);
+	line-height: 22px;
 }
 
 #header nav a {
@@ -26,7 +27,7 @@ body {
 }
 
 #header{
-	background: #000 url("../images/background-header.jpg") no-repeat;
+	background: #000 no-repeat fixed;
 	background-size: cover; /* Cobre o campo com a imagem */
 	color: #fff;
 	width: 100%;
@@ -56,53 +57,14 @@ body {
 	text-align: center;
 }
 
-#footer, #team, #customers, #how-it-work{
-	text-align: center;
+.section {
 	padding: 30px 0px 30px 0px; 
 
 }
 
-#customers {
-	background-color: rgb(242, 242, 242);
-}
+.section-center {
+	text-align: center;
 
-#customers .btn {
-	margin-top: 50px;
-	background-color: rgb(220, 220, 220);
-	color: rgb(130, 130, 130);
-}
-
-#customers .btn:hover {
-	background-color: rgb(130, 130, 130);
-	color: rgb(220, 220, 220);
-}
-
-#customers .btn .material-icons{
-	vertical-align: middle;
-	font-size: 16px;
-	}
-
-#customers .container{
-	max-width: 1200px;
-}
-
-#team {
-	background-color: rgb(84, 209, 84);
-	color: #fff;
-}
-
-#team h2:after {
-	content: '';
-	display: block;
-	background-color: rgb(255, 255, 255);
-	margin: 5px auto 0 auto;
-	width: 50px;
-	height: 2px;  
-}
-
-#team .img-border-round{
-	width: 120px;
-	height: 120px;
 }
 
 #footer {
