@@ -18,3 +18,7 @@ h2:after {
 .subtitle {
 	margin-bottom: 30px;
 }
+
+.text-left {
+	text-align: left;
+}
