@@ -19,14 +19,6 @@ input:focus, textarea:focus {
 
 }
 
-input::placeholder, textarea::placeholder {
-    color: white;
-}
-
-input:focus::placeholder, textarea:focus::placeholder {
-    color: #777;
-}
-
 .input-control {
     position: relative;
 }
@@ -35,10 +27,12 @@ input:focus::placeholder, textarea:focus::placeholder {
     position: absolute;
     top: 5px;
     left: 5px;
+    opacity: 0;
 }
 
 .input-control input:focus ~ label, .input-control textarea:focus ~ label {
     top: -25px;
     font-size: 12px;
-	transition: ease .9s all; /* Efeito de Transição no botão */
+    transition: ease .9s all; /* Efeito de Transição no botão */
+    opacity: 1;
 }
