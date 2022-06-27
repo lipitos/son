@@ -1,48 +1,65 @@
-@import url('../style.css');
+@import url("../style.css");
 
-#header.page-home{
-    background-image: url("../../images/background-header.jpg") ;
+#header.page-home {
+  background-image: url("../../images/background-header.jpg");
+}
+
+#us h1 {
+  font-family: "Great Vibes";
+  font-size: 90px;
+}
+
+#us h2 {
+  font-family: "Great Vibes";
 }
 
 #customers {
-	background-color: rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
 }
 
 #customers .btn {
-	margin-top: 50px;
-	background-color: rgb(220, 220, 220);
-	color: rgb(130, 130, 130);
+  margin-top: 50px;
+  background-color: rgb(220, 220, 220);
+  color: rgb(130, 130, 130);
 }
 
 #customers .btn:hover {
-	background-color: rgb(130, 130, 130);
-	color: rgb(220, 220, 220);
+  background-color: rgb(130, 130, 130);
+  color: rgb(220, 220, 220);
 }
 
-#customers .btn .material-icons{
-	vertical-align: middle;
-	font-size: 16px;
-	}
+#customers .btn .material-icons {
+  vertical-align: middle;
+  font-size: 16px;
+}
 
-#customers .container{
-	max-width: 1200px;
+#customers .container {
+  max-width: 1200px;
 }
 
 #team {
-	background-color: rgb(84, 209, 84);
-	color: #fff;
+  background-color: rgb(84, 209, 84);
+  color: #fff;
+}
+
+#team a:before {
+  color: #fff;
+}
+
+#team a:after {
+  color: #fff;
 }
 
 #team h2:after {
-	content: '';
-	display: block;
-	background-color: rgb(255, 255, 255);
-	margin: 5px auto 0 auto;
-	width: 50px;
-	height: 2px;  
+  content: "";
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin: 5px auto 0 auto;
+  width: 50px;
+  height: 2px;
 }
 
-#team .img-border-round{
-	width: 120px;
-	height: 120px;
+#team .img-border-round {
+  width: 120px;
+  height: 120px;
 }

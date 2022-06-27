@@ -1,24 +1,24 @@
-.btn{
-	background-color: rgb(84, 209, 84);
-	color: #ffffff;
-	display: inline-block;
-	border-radius: 30px;
-	padding: 10px 20px;
-	text-decoration: none;
-	transition: ease .5s all;
-	border: none;
-	cursor: pointer;
+.btn {
+  background-color: rgb(228, 89, 181);
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: ease 0.5s all;
+  border: none;
+  cursor: pointer;
 }
 
-.btn:hover{
-	background-color: rgb(84, 160, 84);
+.btn:hover {
+  background-color: rgb(228, 89, 181, 0.3);
 }
 
 .btn.orange {
-	background-color: #fed136;
-	transition: ease .9s all; /* Efeito de Transição no botão */
+  background-color: #fed136;
+  transition: ease 0.9s all; /* Efeito de Transição no botão */
 }
 
 .btn.orange:hover {
-	background-color: rgb(84, 160, 84);
+  background-color: rgb(84, 160, 84);
 }
