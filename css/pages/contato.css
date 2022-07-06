@@ -1,16 +1,22 @@
-@import url('../form.css');
-@import url('../style.css');
+@import url("../form.css");
+@import url("../style.css");
 
-#header.page-contato{
-    background-image: url("../../images/background-contato.jpg");
+#header.page-contato {
+  background-image: url("../../images/background-contato.jpg");
+}
+
+#confirmacao h1 {
+  font-family: "Great Vibes";
+  font-size: 90px;
+  color: rgba(255, 0, 13, 0.829);
 }
 
 main {
-    background-color: rgb(243, 240, 241);
+  background-color: rgb(243, 240, 241);
 }
 
 .btn {
-    border-radius: 0;
-    padding: 20px 60px;
-    font-size: 18px;
+  border-radius: 0;
+  padding: 20px 60px;
+  font-size: 18px;
 }

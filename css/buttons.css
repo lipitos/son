@@ -1,5 +1,5 @@
 .btn {
-  background-color: rgb(228, 89, 181);
+  background-color: rgba(255, 0, 13, 0.815);
   color: #ffffff;
   display: inline-block;
   border-radius: 30px;
@@ -11,7 +11,7 @@
 }
 
 .btn:hover {
-  background-color: rgb(228, 89, 181, 0.3);
+  background-color: rgba(255, 0, 13, 0.411);
 }
 
 .btn.orange {

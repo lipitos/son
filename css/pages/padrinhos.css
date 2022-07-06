@@ -1,16 +1,16 @@
 @import url("../style.css");
 
 #header.page-quem-somos {
-  background-image: url("../../images/background-quem-somos.jpg");
+  background-image: url("../../images/background-padrinhos.jpg");
 }
 
-#noivos h1 {
+#padrinhos h1 {
   font-family: "Great Vibes";
   font-size: 90px;
   color: rgba(255, 0, 13, 0.829);
 }
 
-#noivos h2 {
+#padrinhos h2 {
   font-family: "Great Vibes";
   color: rgba(255, 0, 13, 0.829);
   text-transform: lowercase;

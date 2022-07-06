@@ -11,10 +11,12 @@
 #local h1 {
   font-family: "Great Vibes";
   font-size: 80px;
+  color: rgba(255, 0, 13, 0.829);
 }
 
 #local h2 {
   font-family: "Great Vibes";
+  color: rgba(255, 0, 13, 0.829);
   text-transform: lowercase;
   font-size: 40px;
 }
